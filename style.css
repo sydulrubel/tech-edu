@@ -1,0 +1,30 @@
+
+.gap{
+    margin-bottom: 100px;
+}
+/* -----Slider---- */
+/* .carousel-item{
+    height: 100vh;
+    
+} */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+.carousel-caption{
+    bottom: 120px;
+    left: 100px;
+    right: 100px;
+}
+.carousel-caption h5{
+    font-size: 80px;
+    font-weight: 700;
+}
+/* Discover Course  */
