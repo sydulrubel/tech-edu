@@ -2,6 +2,10 @@
 .gap{
     margin-bottom: 100px;
 }
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
 /* -----Slider---- */
 /* .carousel-item{
     height: 100vh;
